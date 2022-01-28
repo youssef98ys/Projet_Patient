@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+xmlns:layout="http://ultraq.net.nz/thymeleaf/layout"
+xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
+layout:decorator="template1">
+<head>
+<meta charset="utf-8">
+<title>non autorisé</title>
+</head>
+<body>
+<section layout:fragment="pageContent">
+<div class="container mt-5"></div>
+<h3 align="center" class="text-danger">vous n'etes pas autorisé</h3>
+</section>
+</body>
+</html>
